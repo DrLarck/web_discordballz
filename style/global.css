@@ -89,7 +89,7 @@ a {
 }
 
 a:hover {
-    color: #454545;
+    text-shadow: 0px 0px 2px #59d6ff;
 }
 
 /* Manages the title displaying */
@@ -114,6 +114,7 @@ h3 {
 
 .nav-top-button a:hover {
     background-color: #00a3d9;
+    box-shadow: 0px 0px 5px #59d6ff;
 }
 
 /* Manages the note displaying */
