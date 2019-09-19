@@ -1,21 +1,14 @@
 /* 
 Represents the global style fo the website's pages 
 Author : DrLarck
-Last update : 17/09/19 (DrLarck)
+Last update : 19/09/19 (DrLarck)
 */
 
 /* Manages the header displaying */
 header {
     /* dimensions */
-    height: 80px;
-    width: auto;
-    border-bottom: 6px solid #454545;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-
-    /* position */
-    position: relative;
+    height: auto;
+    margin-top: 2%;
 
     /* text */
     text-align: center;
@@ -23,32 +16,57 @@ header {
 
     /* color */
     color: white;
-    background-color: #5c5c5c;
+    background-color: transparent;
 }
 
-header p {
-    /* position */
-    padding-bottom: 50px;
+header img {
+    width: 20%;
+}
+
+/* Manages the page appearance */
+
+.page {
+    border-top: 6px solid #454545;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    /* dimension */
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 2%;
+
+    height: auto;
+
+    /* color */
+    background-color: white;
+    box-shadow: 0px 8px 15px -10px black;
 }
 
 /* Manages the footer displaying */
 footer {
     /* dimension */
-    width: 100%;
-    margin-top: 33%;
+    width: auto;
     height: auto;
-    border-top: 6px solid #454545;
+    border-top: 3px solid #454545;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 
     /* text */
     text-align: center;
 
     /* color */
     background-color: #f7f7f7;
+    box-shadow: 0px 8px 15px -10px black;
 }
 
 footer p {
     /* text style */
     font-style: italic;
+    padding-bottom: 15px;
 
     /* color */
     color: #454545;
@@ -59,14 +77,13 @@ body {
     /* text */
     text-align: justify;
     font-family: "Calibri";
-    font-size: 15px;
+    font-size: 18;
 
-    margin-left: 10%;
-    margin-right: 10%;
-    
     /* color */
     color: black;
-    background-color: white;
+    background: url(../resource/image/background/2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 body p {
@@ -108,9 +125,11 @@ h3 {
 /* Manages the nav buttons */
 
 .nav-top-button a {
+    margin-left: 5px;
     /* dimension */
     padding-left: 3px;
     padding-right: 3px;
+    padding-bottom: 3px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 
@@ -120,6 +139,11 @@ h3 {
 }
 
 .nav-top-button a:hover {
+    border-top: 6px solid #00a3d9;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     background-color: #00a3d9;
     box-shadow: 0px 0px 5px #59d6ff;
 }
@@ -155,6 +179,3 @@ h3 {
     color: #3a6bff;
 }
 
-.background {
-    background: url(../resource/image/background/1.jpg);
-}
