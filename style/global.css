@@ -81,7 +81,7 @@ body {
     /* color */
     color: black;
     background: url(../resource/image/background/2.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 100%;
 }
 
