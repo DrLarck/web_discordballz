@@ -20,7 +20,10 @@ header {
 }
 
 header img {
-    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 /* Manages the page appearance */
