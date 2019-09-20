@@ -137,6 +137,22 @@ b {
     color: #454545;
 }
 
+code {
+    /* dimension */
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 3px;
+
+    /* text */
+    font-family: 'Courier New', Courier, monospace;
+    
+    /* color */
+    background-color: #454545;
+    color: white;
+}
+
 /* CUSTOM */
 /* Manages the nav buttons */
 
