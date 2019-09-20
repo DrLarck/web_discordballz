@@ -34,8 +34,8 @@ header img {
     border-top-right-radius: 5px;
 
     /* dimension */
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-bottom: 2%;
 
     height: auto;
@@ -52,8 +52,8 @@ footer {
     height: auto;
     border-top: 3px solid #454545;
 
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
