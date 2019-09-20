@@ -127,14 +127,21 @@ a:hover {
 }
 
 hr {
+    margin-top: 2%;
     width: 90%;
     color: #454545;
     opacity: 0.2;
 }
+
+b {
+    color: #454545;
+}
+
 /* CUSTOM */
 /* Manages the nav buttons */
 
 .nav-top-button a {
+    font-size: 20px;
     margin-left: 5px;
     /* dimension */
     padding-left: 3px;
