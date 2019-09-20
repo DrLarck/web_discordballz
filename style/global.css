@@ -1,7 +1,7 @@
 /* 
 Represents the global style fo the website's pages 
 Author : DrLarck
-Last update : 19/09/19 (DrLarck)
+Last update : 20/09/19 (DrLarck)
 */
 
 /* Manages the header displaying */
@@ -123,7 +123,7 @@ a {
 }
 
 a:hover {
-    text-shadow: 0px 0px 2px #59d6ff;
+    color: #454545;
 }
 
 /* Manages the nav buttons */
