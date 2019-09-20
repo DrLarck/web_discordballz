@@ -36,19 +36,95 @@
 
             </div>  <!-- End : Nav button -->
 
-            <!-- Write the page content here -->
+            <h3><u>Patch 3.0.1</u></h3>
 
-            <h3>Patch x.x.x</h3>
+            <h3>Added characters</h3>
             <p>
-                PATCH_CONTENT
+                In this patch, we have added few characters :
+                <ul>
+                    <li><b>Green Saibaiman</b></li>
+                    <li><b>Blue Saibaiman</b></li>
+                    <li><b>Red Saibaiman</b></li>
+                    <li><b>Pilaf Machine</b></li>
+                    <li><b>Piccolo</b></li>
+                    <li><b>Bardock</b></li>
+                </ul>
             </p>
             
+            <hr>
+            
+            <h3>Character changes</h3>
+            <ul>
+                <li>
+                    <b>Blue Saibaiman</b>
+                    <ul>
+                        <li>Abilities :</li>
+                        <ul>
+                            <li><i>Replenish the ranks</i> : Removed.</li>
+                        </ul>
+                    </ul>
+                </li>
+            </ul>
             <div class="dev-comment">
                 <h4>Developer comment</h4>
                 <p>
-                    A_DEV_COMMENT
+                    "We have decided to remove the <b>Replenish the rank</b> ability pending its <b>rework</b>."
                 </p>
             </div>
+            <hr>
+            
+            <h3>Fighter selection</h3>
+            <p>
+                We have changed the way of setting a character as fighter.<br>
+                <br>
+                <b>Before</b>, you were forced to know the character's <b>unique id</b> to define it as fighter.<br>
+                <br>
+                <b>Now</b>, you can type, for example : <code>fighter set a {id}</code> to open a box page which will display a set of characters with the same <b>id</b> as 
+                the <b>passed</b> one.<br>
+                Then, you just have to type the <b>character's index number</b> and let the game assign it automatically.
+            </p>
+
+            <div class="dev-comment">
+                <h4>Developer comment</h4>
+                <p>
+                    "We think that it is the easiest way to define a fighter.<br>
+                    You no longer need to open your box separately to check your character's id one by one.<br>
+                    It is also more intuitive."
+                </p>
+            </div>
+
+            <p>
+                The <b>old</b> method also works : <code>fighter set a {unique id}</code>
+            </p>
+
+            <hr>
+
+            <h3>Team management</h3>
+            <p>
+                The patch also implements a <b>Team Management</b> system which allows you to <b>remove</b>, <b>add</b> or <b>replace</b> one of your fighters easier.<br>
+                <br>
+                The commands are the following :<br>
+            </p>
+
+                <ul>
+                    <li><code>set {slot} {id}</code> : This command allows you to <b>add</b> or <b>replace</b> a fighter at the passed <b>slot</b> by the character passed as 
+                    <b>id</b>.</li>
+                    <li><code>remove {slot}</code> : Set the passed <b>slot</b> to <b>None</b> (<i>Which basically means "empty"</i>)</li>
+                </ul>
+            
+            <p>
+                If you just want to display your team, you can use the command <code>fighter team</code>.<br>
+                <br>
+                Originally the leader of your team is the <b>fighter</b> defined at <b>slot A</b>.
+            </p>
+
+            <hr>
+
+            <h3>Bug fixes</h3>
+            <ul>
+                <li>Fixed a bug that was failing the <b>Box</b> to counting the pages amount correctly.</li>
+                <li>Fixed a bug that was failing some <b>abilities</b> to add a stack of <b>Acid</b> <i>(DOT)</i> properly.</li>
+            </ul>
 
         </div> <!-- End : Page content -->
     </body>

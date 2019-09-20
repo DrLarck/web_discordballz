@@ -64,6 +64,9 @@ Last update : 20/09/19
     /* dimension */
     border-left: 6px solid #454545;
     border-radius: 5px;
+
+    /* color */
+    background-color: #ebebeb;
 }
 
 .dev-comment p {
