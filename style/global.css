@@ -126,6 +126,12 @@ a:hover {
     color: #454545;
 }
 
+hr {
+    width: 90%;
+    color: #454545;
+    opacity: 0.2;
+}
+/* CUSTOM */
 /* Manages the nav buttons */
 
 .nav-top-button a {
