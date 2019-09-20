@@ -185,7 +185,6 @@ code {
 .note {
     /* dimension */
     padding-bottom: 1px;
-    padding-top: 1px;
 
     width: auto;
 
@@ -204,10 +203,12 @@ code {
 }
 
 .note p {
-    margin-left: 1%;
+    margin-left: 2%;
 }
 
 .note h4 {
-    margin-left: 1%;
+    padding-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 0px;
     color: #3a6bff;
 }
