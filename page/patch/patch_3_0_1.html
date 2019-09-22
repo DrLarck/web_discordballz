@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   <!-- Allow the page to be responsive -->
     <!-- Info -->
     <meta name="author" content="DrLarck">
-    <meta name="last_update" content="21/09/19">
+    <meta name="last_update" content="22/09/19">
     <meta name="language" content="enEN">
     <meta name="description" content="Patch 3.0.1">
 
@@ -37,30 +37,49 @@
             </div>  <!-- End : Nav button -->
 
             <h3><u>Patch 3.0.1</u></h3>
-
-            <h3>Added characters</h3>
-            <p>
-                In this update, we have added few characters such as :
-                <ul>
-                    <li><b>Green Saibaiman</b></li>
-                    <li><b>Blue Saibaiman</b></li>
-                    <li><b>Red Saibaiman</b></li>
-                    <li><b>Pilaf Machine</b></li>
-                    <li><b>Piccolo</b></li>
-                    <li><b>Bardock</b></li>
-                </ul>
-            </p>
             
             <hr>
+
+            <h3>Summary</h3>
+            <ul>
+                <li><a href="#character-change">Character balance changes</a><br></li>
+                <li><a href="#new-feature">New Feature</a><br></li>
+                <li><a href="#bug-fix">Bug Fixes</a><br></li>
+            </ul>
+
             
-            <h3>Character changes</h3>
+            <h3 id="character-change">Character balance changes</h3>
             <ul>
                 <li>
                     <b>Blue Saibaiman</b>
                     <ul>
                         <li>Abilities :</li>
                         <ul>
-                            <li><i>Replenish the ranks</i> : Removed.</li>
+                            <li><b>Remove :</b> <i>Replenish the ranks</i></li>
+                        </ul>
+                    </ul>
+                </li>
+                <li>
+                    <b>Pilaf Machine</b>
+                    <ul>
+                        <li>Passive :</li>
+                        <ul>
+                            <li>
+                                <b>Add :</b> <i>Triple pilots</i> : Generate <b>2</b> stacks of <b>Triple pilots</b> bonus for the <b>caster</b>.
+                            </li>
+                        </ul>
+                        <li>Abilities :</li>
+                        <ul>
+                            <li><b>Add :</b> <i>Rolling smash</i> : This ability deals <b>150 %</b> of your <b>physical damage</b> and has a <b>4</b> turns cooldown.</li>
+                            <li>
+                                <b>Add :</b> <i>Pilaf barrier</i> : This ability gives a bonus to the <b>caster</b> which increases its <b>armor</b> by <b>50 %</b> for 1 turn.<br>
+                                Moreover, the <b>caster</b> is considered as <b>Defending</b> for the effect duration.<br>
+                                <b>3</b> turns cooldown.
+                            </li>
+                            <li>
+                                <b>Add :</b> <i>Triple pilots</i> : This ability consums one charge of <b>Triple pilots</b> and allow the unit to recover <b>30 %</b> of its 
+                                <b>Maximum health</b>.
+                            </li>
                         </ul>
                     </ul>
                 </li>
@@ -73,15 +92,19 @@
             </div>
             <hr>
             
-            <h3>Fighter selection</h3>
+            <h3 id="new-feature">New feature</h3>
             <p>
-                We have changed the way of setting a character as fighter.<br>
-                <br>
-                <b>Before</b>, you were forced to know the character's <b>unique id</b> to define it as fighter.<br>
-                <br>
-                <b>Now</b>, you can type, for example : <code>fighter set a {id}</code> to open a box page which will display a set of characters with the same <b>id</b> as 
-                the <b>passed</b> one.<br>
-                Then, you just have to type the <b>character's index number</b> and let the game assign it automatically.
+                <ul>
+                    <li>Fighter selection :<br><br>
+                        We have changed the way of setting a character as fighter.<br>
+                        <br>
+                        <b>Before</b>, you were forced to know the character's <b>unique id</b> to define it as fighter.<br>
+                        <br>
+                        <b>Now</b>, you can type, for example : <code>fighter set a {id}</code> to open a box page which will display a set of characters with the same <b>id</b> as 
+                        the <b>passed</b> one.<br>
+                        Then, you just have to type the <b>character's index number</b> and let the game assign it automatically.
+                    </li>
+                </ul>
             </p>
 
             <div class="dev-comment">
@@ -94,33 +117,34 @@
             </div>
 
             <p>
-                The <b>old</b> method also works : <code>fighter set a {unique id}</code>
+                <ul>The <b>old</b> method also works : <code>fighter set a {unique id}</code></ul>
             </p>
 
             <hr>
 
-            <h3>Team management</h3>
             <p>
-                The update also implements a <b>Team Management</b> system which allows you to <b>remove</b>, <b>add</b> or <b>replace</b> one of your fighters easier.<br>
-                <br>
-                The commands are the following :<br>
-            </p>
-
                 <ul>
-                    <li><code>set {slot} {id}</code> : This command allows you to <b>add</b> or <b>replace</b> a fighter at the passed <b>slot</b> by the character passed as 
-                    <b>id</b>.</li>
-                    <li><code>remove {slot}</code> : Set the passed <b>slot</b> to <b>None</b> (<i>Which basically means "empty"</i>)</li>
+                    <li>Team management :<br><br>
+                        The update also implements a <b>Team Management</b> system which allows you to <b>remove</b>, <b>add</b> or <b>replace</b> one of your fighters easier.<br>
+                        <br>
+                        The commands are the following :<br>
+                        <ul>
+                            <li><code>set {slot} {id}</code> : This command allows you to <b>add</b> or <b>replace</b> a fighter at the passed <b>slot</b> by the character passed as 
+                            <b>id</b>.</li>
+                            <li><code>remove {slot}</code> : Set the passed <b>slot</b> to <b>None</b> (<i>Which basically means "empty"</i>)</li>
+                        </ul>
                 </ul>
             
-            <p>
-                If you just want to display your team, you can use the command <code>fighter team</code>.<br>
-                <br>
-                Originally the leader of your team is the <b>fighter</b> defined at <b>slot A</b>.
+            <ul>
+                    If you just want to display your team, you can use the command <code>fighter team</code>.<br>
+                    <br>
+                    Originally the leader of your team is the <b>fighter</b> defined at <b>slot A</b>.
+            </ul>
             </p>
 
             <hr>
 
-            <h3>Bug fixes</h3>
+            <h3 id="bug-fix">Bug fixes</h3>
             <ul>
                 <li>Fixed a bug that was failing the <b>Box</b> to count the page amount correctly.</li>
                 <li>Fixed a bug that was failing some <b>abilities</b> to add a stack of <b>Acid</b> <i>(DOT)</i> properly.</li>
