@@ -141,12 +141,11 @@ code {
     /* dimension */
     padding-left: 1px;
     padding-right: 1px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    border-radius: 3px;
+    border-radius: 2px;
 
     /* text */
     font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
     
     /* color */
     background-color: #454545;
