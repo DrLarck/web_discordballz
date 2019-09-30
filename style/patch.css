@@ -61,6 +61,9 @@ Last update : 20/09/19
     margin-left: 5%;
     margin-right: 5%;
 
+    /* text */
+    font-style: italic;
+
     /* dimension */
     border-left: 6px solid #454545;
     border-radius: 5px;
