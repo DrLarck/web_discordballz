@@ -218,3 +218,34 @@ ul {
     margin-bottom: 0px;
     color: #3a6bff;
 }
+
+.warning {
+    /* dimension */
+    padding-bottom: 1px;
+
+    width: auto;
+
+    border-radius: 3px;
+    
+    /* text */
+    font-style: italic;
+
+    /* position */
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    /* color */
+    border-left: 6px solid #ff6464;
+    background-color: #ffd0d0;
+}
+
+.warning p {
+    margin-left: 2%;
+}
+
+.warning h4 {
+    padding-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 0px;
+    color: #ff3a3a;
+}
