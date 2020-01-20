@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <!-- configuration -->
+    <meta name="charset" content="UTF-8" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- informations -->
+    <meta name="author" content="DrLarck">
+    <meta name="last_update" content="20/01/20">
+    <meta name="language" content="enEN">
+    <meta name="description" content="Patch 3.0.1.156">
+
+    <head>
+        <link rel="icon" type="image/png" href="">
+        <link rel="stylesheet" type="text/css" href="../../css/webdbz_css2.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap"> 
+        <script src="https://kit.fontawesome.com/9a6b997325.js" crossorigin="anonymous"></script>
+    </head>
+
+    <!-- page -->
+    <title>Patch 3.0.1.156</title>
+    <body>
+        <div class="bandeau" id="top">
+            <div class="bandeau-title">
+                <p>
+                    Discord Ball Z
+                </p>
+            </div>
+        </div>  <!-- end of header -->
+
+        <!-- navigation menu -->
+        <div class="nav-menu-button">
+            <a href="../../../index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="../patch.html"><i class="fas fa-sticky-note"></i> Patch</a>
+    
+        </div>  <!-- end of navigation menu -->
+
+        <!-- page content -->
+        <div class="page">
+            <h3>Patch 3.0.1.156</h3>
+
+            <hr>
+
+            <h3>Summary</h3>
+            <ul>
+                <li><a href="#character-change">Character balance changes</a><br></li>
+                <li><a href="#new-feature">New Feature</a><br></li>
+                <li><a href="#bug-fix">Bug Fixes</a><br></li>
+                <li><a href="#other">Other</a><br></li>
+            </ul>
+
+            <h3 id="character-change">Character balance changes</h3>
+            <ul>
+                <li>
+                    <b>Green Saibaiman #1</b> :
+                    <ul>
+                        <li>
+                            👑<b>Leader skill</b> : The <b>Green Saibaiman's</b> passive is applied to <b>all</b> allied <b>Saibaiman</b>.
+                        </li>
+                        <li>
+                            🌀<b>Passive skill</b> : This unit gains <b>5 %</b> of its allied <b>Saibaiman maximum Ki Power</b> as <b>Ki power</b>.
+                        </li>
+                    </ul>
+                    <br>
+                    <ul>
+                        <li><b>Acid : </b> Add ability tooltip.</li>
+                        <li><b>Syphon : </b> Add ability tooltip.</li>
+                        <li><b>Unity is strength : </b> Add ability tooltip.</li>
+                    </ul>
+            </ul>
+
+            <hr>
+            
+            <ul>
+                <li>
+                    <b>Blue Saibaiman #2</b> :
+                    <ul>
+                        <li>
+                            👑<b>Leader skill</b> : Applies the <b>Last will, Acid !</b> <i>on death</i> effect to all the allied saibaiman.
+                        </li>
+                        <li>
+                            🌀<b>Passive skill</b> : On death, the <b>caster</b> applies <b>2</b> stacks of <b>Acid</b> to <b>all</b> the enemy team.
+                        </li>
+                    </ul>
+
+                    <br>
+
+                    <ul>
+                        <li><b>Acid Explosion : </b> Add ability tooltip.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <hr>
+            
+            <ul>
+                <li>
+                    <b>Red Saibaiman #3</b> :
+                    <ul>
+                        <li>
+                            👑<b>Leader skill</b> : Applies the <b>Power charge !</b> bonus to the allied Saibaiman.
+                        </li>
+                        <li>
+                            🌀<b>Passive skill</b> : <b>Power charge !</b> grants <b>+2 Ki Regen</b>.
+                        </li>
+                    </ul>
+
+                    <br>
+
+                    <ul>
+                        <li><b>Paralyzing burns : </b> Add ability tooltip.</li>
+                        <li><b>Spreading acid : </b> Add ability tooltip.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <hr>
+
+            <ul>
+                <li>
+                    <b>Pilaf Machine #4</b> : 
+                    <ul>
+                        <li><b>Rolling Smash : </b> Add a new icon for the ability.<br>
+                            Add ability tooltip.</li>
+                        <li><b>Pilaf Barrier : </b> Add a new icon for the ability and bonus.<br>
+                            Add ability tooltip.</li>
+                        <li><b>Triple Pilots : </b> Add a new icon for the ability and bonus.<br>
+                            Add ability tooltip.</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <hr>
+
+            <h3 id="new-feature">New feature</h3>
+            <ul>
+                <li>
+                    During the <b>action selection</b> phase you will now see easier and quicker which ability is available for use.
+                </li>
+                <li>
+                    The ability cooldown is now displayed on the left of the ability's name if this one is under cooldown.
+                </li>
+                <li>
+                    We have added <b>ability tooltip</b> in <b>action selection</b> phase.
+                </li>
+                <li>
+                    Add the <code>profile</code> command.
+                </li>
+                <li>
+                    Add a message on <code>start</code>.
+                </li>
+                <li>
+                    Add <code>help</code> command.
+                </li>
+            </ul>
+
+            <hr>
+
+            <h3 id="bug-fix">Bug fixes</h3>
+            <ul>
+                <li>
+                    Fixes the text of the <b>action selection</b> menu.
+                </li>
+                <li>
+                    Fixes a bug that was failing <b>Acid</b> to reset its <b>duration</b> if the maximum <b>stack amount</b> would have been reached.
+                </li>
+                <li>
+                    Fixes a bug that was allowing the player to choose a character that he doesn't own as <b>fighter</b>.
+                </li>
+                <li>
+                    Fixes a bug that was failing the <b>target selection</b> pannel to display <b>permanent</b> effect correctly.
+                </li>
+            </ul>
+
+            <h3 id="other">Other</h3>
+            <ul>
+                <li>
+                    Removes the <b>displaying</b> of the <b>Passive</b> and <b>Leader</b> skill if the <b>current turn</b> is no longer 
+                    the <b>first</b> one.
+                </li>
+            </ul>
+
+        </div>  <!-- end of page content -->
+
+        <div class="bandeau">
+            <p>
+                <i>
+                <a href="#top">Top of the page</a><br>
+                <br>
+                Official Discord Ball Z website.<br>
+                <br>
+                <a href="https://discord.gg/gwpJgtS"><i class="fab fa-discord fa-2x"></i></a>
+                <a href="https://twitter.com/discordbz?s=09"><i class="fab fa-twitter fa-2x"></i></a><br>
+                <br>
+                Last update : 20/01/20 by DrLarck <br>
+                <br>
+                ©2019-2020
+                </i>
+            </p>
+        </div>  <!-- end of footer -->
+    </body>
+</html>
