@@ -50,6 +50,11 @@ a {
     color: #00a3d9;
 }
 
+code {
+    /* appearance */
+    background-color: #e6e6e6;
+}
+
     /* custom */
 /* bandeau */
 .bandeau {
