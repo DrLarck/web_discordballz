@@ -5,7 +5,7 @@ Manages the css of the website
 
 Author : DrLarck
 
-Last update : 20/01/20 (DrLarck)
+Last update : 02/02/20 (DrLarck)
 */
 
 /* Theme */
@@ -13,6 +13,11 @@ Last update : 20/01/20 (DrLarck)
 body {
     /* font */
     font-family: 'Roboto', sans-serif;
+
+    /* appearance */
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 body p {
@@ -82,6 +87,30 @@ code {
 }
 
 .bandeau-title {
+    /* appearance */
+    font-size: 40px;
+}
+
+/* footer fixed at the bottom */
+.bandeaubot {
+    /* appearance */
+    background-color: #1d1d1d;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    /* position */
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.bandeaubot p {
+    /* appearance */
+    color: white;
+    text-align: center;
+}
+
+.bandeaubot-title {
     /* appearance */
     font-size: 40px;
 }
