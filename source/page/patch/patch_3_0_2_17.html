@@ -6,9 +6,9 @@
 
     <!-- informations -->
     <meta name="author" content="DrLarck">
-    <meta name="last_update" content="02/02/20">
+    <meta name="last_update" content="07/02/20">
     <meta name="language" content="enEN">
-    <meta name="description" content="Character additions, new abilities, new cancel command, fight crash fix, training command update ...">
+    <meta name="description" content="Add missions, fix some annoying bugs, increase the summon cost">
 
     <head>
         <link rel="icon" type="image/png" href="">
@@ -18,7 +18,7 @@
     </head>
 
     <!-- page -->
-    <title>Patch 3.0.1.225</title>
+    <title>Patch 3.0.2.17</title>
     <body>
         <div class="bandeau" id="top">
             <div class="bandeau-title">
@@ -30,7 +30,7 @@
 
         <!-- navigation menu -->
         <div class="nav-menu-button">
-            <a href="../../../index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="../../../index.html.html"><i class="fas fa-home"></i> Home</a>
             <a href="../patch.html"><i class="fas fa-sticky-note"></i> Patch</a>
             <a href="../guide.html"><i class="fas fa-graduation-cap"></i> Guide</a>
     
@@ -38,7 +38,7 @@
 
         <!-- page content -->
         <div class="page">
-            <h3>Patch 3.0.1.225</h3>
+            <h3>Patch 3.0.2.17</h3>
 
             <hr>
 
@@ -53,50 +53,7 @@
             <h3 id="character-change">Character balance changes</h3>
             <ul>
                 <li>
-                    <b>Goten</b>
-                    <ul>
-                        <li>
-
-                            Add skeleton.
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <b>Turles</b>
-                    <ul>
-                        <li>
-
-                            Add skeleton.
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <b>Launch</b>
-                    <ul>
-                        <li>
-
-                            Add skeleton.
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <b>Piccolo</b>
-                    <ul>
-                        <li>
-                            Abilities :
-                            <ul>
-                                <li>
-                                    <b>Add</b> : <i>Arm stretch</i> :<br>
-                                    Performs a sequence attack against any enemy.
-                                </li>
-                                <br>
-                                <li>
-                                    <b>Add</b> : <i>Special Beam Cannon</i> :<br>
-                                    Inflicts <b>50 %</b> of the unit's <b>Ki power</b> as <b>True damage</b>.
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <!-- some character changes -->
                 </li>
             </ul>
             
@@ -105,19 +62,26 @@
             <h3 id="new-feature">New feature</h3>
             <ul>
                 <li>
-                    Add <code>cancel</code> command.
+                    Add the <code>mission [mission index]</code> command.
+                    <ul>
+                        <li>
+                            Add <code>mission info [mission index]</code> subcommand.
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    Add the <code>mission</code> info panel to the <code>help</code> command.
                 </li>
                 <li>
-                    Add <code>cancel fight</code> command.
+                    Add the <code>cancel</code> info panel to the <code>help</code> command.
                 </li>
             </ul>
 
             <div class="note">
                 <h4>Note</h4>
                 <p>
-                    We have added the <code>cancel</code> command to avoid the player to get stuck in the middle of a blocking action.<br>
-                    This command can be used as any other command, here's a quick example : <code>d!cancel fight</code><br>
-                    We will add other functionality to this command in the future.
+                    Type <code>d!help mission</code> for more informations about the missions feature.
                 </p>
             </div>
 
@@ -126,27 +90,24 @@
             <h3 id="bug-fix">Bug fixes</h3>
             <ul>
                 <li>
-                    Fix a bug that was failing the <code>start</code> command to work properly if the player's name contains the character : <code>'</code>.
+                    Fix the <code>fighter</code> help panel.
                 </li>
                 <li>
-                    Fix a bug that was making the fight system to crash during a fight.
+                    Fix a bug that was failing the <b>character</b> stats to be calculated properly.
                 </li>
             </ul>
 
             <h3 id="other">Other</h3>
             <ul>
                 <li>
-                    The <code>flee</code> combat option is not <b>case sensitive</b> anymore.
-                </li>
-                <li>
-                    The <b>opponent team</b> in the <code>train</code> now contains the <b>3 Saibaiman</b>.
+                    <code>summon</code> cost : <i><del>5</del></i> -> <b>10</b> dragon stones.
                 </li>
             </ul>
 
             <div class="note">
                 <h4>Note</h4>
                 <p>
-                    We have added the 3 Saibaiman to the train feature to test out the <b>AOE</b> abilities.
+                    The summon cost has been increased by <b>5</b> to simulate its release cost.
                 </p>
             </div>
 
@@ -162,7 +123,7 @@
                 <a href="https://discord.gg/gwpJgtS"><i class="fab fa-discord fa-2x"></i></a>
                 <a href="https://twitter.com/discordballz?s=20"><i class="fab fa-twitter fa-2x"></i></a><br>
                 <br>
-                Last update : 02/02/20 by DrLarck <br>
+                Last update : 07/02/20 by DrLarck <br>
                 <br>
                 ©2019-2020
                 </i>
