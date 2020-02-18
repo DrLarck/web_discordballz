@@ -6,9 +6,9 @@
 
     <!-- informations -->
     <meta name="author" content="DrLarck">
-    <meta name="last_update" content="17/02/20">
+    <meta name="last_update" content="18/02/20">
     <meta name="language" content="enEN">
-    <meta name="description" content="DESCRIPTION">
+    <meta name="description" content="Add Broly's #6 abilities, and bug fixes.">
 
     <head>
         <link rel="icon" type="image/png" href="">
@@ -18,7 +18,7 @@
     </head>
 
     <!-- page -->
-    <title>PAGE_NAME</title>
+    <title>Patch 3.0.3.134</title>
     <body>
         <div class="bandeau" id="top">
             <div class="bandeau-title">
@@ -38,7 +38,7 @@
 
         <!-- page content -->
         <div class="page">
-            <h3>Patch x.x.x</h3>
+            <h3>Patch 3.0.3.134</h3>
 
             <hr>
 
@@ -53,7 +53,18 @@
             <h3 id="character-change">Character balance changes</h3>
             <ul>
                 <li>
-                    <!-- some character changes -->
+                    <b>Broly</b> #6 :
+                    <ul>
+                        <li>
+                            Add <b>Powered Shell</b> ability : <br>
+                            Gains <b>10 %</b> damage reduction for <b>5</b> turns.
+                        </li>
+                        <br>
+                        <li>
+                            Add <b>Eraser Canon</b> ability : <br>
+                            Inflicts <b>15 %</b> of your <b>Ki</b> power as damage to all the enemies and <b>Stun</b> them for <b>1</b> turn.
+                        </li>
+                    </ul>
                 </li>
             </ul>
             
@@ -62,7 +73,7 @@
             <h3 id="new-feature">New feature</h3>
             <ul>
                 <li>
-                    <!-- some new feature -->
+                    The <code>d!show [id] [level]</code> now displays the <b>passive</b> and <b>leader</b> skills of the character.
                 </li>
             </ul>
 
@@ -70,6 +81,21 @@
 
             <h3 id="bug-fix">Bug fixes</h3>
             <ul>
+                <li>
+                    Fix a bug that was failing the <b>Summon</b> feature to display <b>rarity color</b> properly.
+                </li>
+                <li>
+                    The <b>stat bonuses</b> are now calculated properly.
+                </li>
+                <li>
+                    Fix a bug that was failing the <b>CPU</b> player to pick a fighter properly if one of its fighter were under a <b>stun effect</b>.
+                </li>
+                <li>
+                    Fix a bug that was failing the <code>d!show [id] [level]</code> command to display character properly.
+                </li>
+                <li>
+                    Fix a bug that was failing the <b>Trainer</b> to give <b>XP</b> to the player's team at the end of the combat.
+                </li>
                 <li>
                     Fix a bug that was failing the <b>Red Saibaiman's</b> passive to be applied properly.
                 </li>
@@ -81,6 +107,12 @@
             <h3 id="other">Other</h3>
             <ul>
                 <li>
+                    Add a <b>global</b> stun effect.
+                </li>
+                <li>
+                    The <b>stat comparison</b> is now handled properly by the <code>check [index]</code> command in combat.
+                </li>
+                <li>
                     Add <b>image</b> to <b>all</b> characters.
                 </li>
                 <li>
@@ -91,6 +123,9 @@
                 </li>
                 <li>
                     Fix a message in the <b>fight</b> checker referencing the <code>d!fighter</code> command that no longer exists.
+                </li>
+                <li>
+                    The passive skills <b>trigger order</b> is now properly handled by the new combat system.
                 </li>
             </ul>
         </div>  <!-- end of page content -->
@@ -105,7 +140,7 @@
                 <a href="https://discord.gg/gwpJgtS"><i class="fab fa-discord fa-2x"></i></a>
                 <a href="https://twitter.com/discordballz?s=20"><i class="fab fa-twitter fa-2x"></i></a><br>
                 <br>
-                Last update : DD/MM/YY by DrLarck <br>
+                Last update : 18/02/20 by DrLarck <br>
                 <br>
                 ©2019-2020
                 </i>
